@@ -1,0 +1,10 @@
+{
+    "name": "Help Movie Scrap",
+    "description": "This is an simple web react app to Help Movie Scrap .",
+    "keywords": [
+        "node",
+        "express",
+        "reactjs",
+        "materialui"
+    ]
+}
