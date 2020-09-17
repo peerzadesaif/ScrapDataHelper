@@ -10,7 +10,7 @@ const cors = require("cors");
 
 const constant = require("./app/helpers/constant");
 
-var whitelist = ["http://localhost:3000", "https://saif-twitter-helpdesk.herokuapp.com"];
+var whitelist = ["http://localhost:3000", "https://saif-scrap-helper.herokuapp.com"];
 var corsOptions = {
     exposedHeaders: ["x-auth-token"],
     origin: function (origin, callback) {

@@ -1,6 +1,6 @@
 module.exports = {
   apiUrl:
     process.env.NODE_ENV === "production"
-      ? "https://saif-twitter-helpdesk.herokuapp.com"
+      ? "https://saif-scrap-helper.herokuapp.com"
       : "http://localhost:4001"
 };
