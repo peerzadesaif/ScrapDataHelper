@@ -243,7 +243,7 @@ class DashBoard extends Component {
                   display: "flex", flexDirection: "row", margin: "10px", width: '90%',
                   textAlign: 'center'
                 }}>
-                  <h1>Conversation</h1>
+                  <h1>Movies Scrap Help</h1>
                   <div className="search-box" style={{
                     margin: '30px', border: '1px solid #e7e6e2',
                     borderRadius: '20px',

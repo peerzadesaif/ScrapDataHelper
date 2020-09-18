@@ -73,7 +73,7 @@ function LoginPage(props) {
         }}
       >
         <Typography variant="h5" style={{ color: "#4a4b54" }} gutterBottom>
-          Twitter Help Desk
+          Scrap Help
         </Typography>
         <h3 style={{ margin: 0 }}>Already a member?</h3>
         <h5>Sign in to access your member benefits</h5>
