@@ -16,6 +16,9 @@ git clone https://github.com/saifpirjade/ScrapDataHelper.git myproject
 # Change directory
 cd myproject
 
+# Create Config folder same like configExample in the root directory
+# or Copy past the same configExample in the root directory
+
 # Install NPM dependencies
 npm install
 
