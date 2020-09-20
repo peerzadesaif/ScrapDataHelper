@@ -5,8 +5,6 @@ import api from "../../shared/customAxios";
 import { apiUrl } from "../../shared/vars";
 import { observer } from "mobx-react";
 import { appStore } from "../../store/appStore";
-import Icon from "@mdi/react";
-import { mdiTwitter } from "@mdi/js";
 
 import TextField from '@material-ui/core/TextField';
 

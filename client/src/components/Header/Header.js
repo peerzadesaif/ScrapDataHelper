@@ -7,7 +7,6 @@ import {
   makeStyles
 } from "@material-ui/core";
 import Icon from "@mdi/react";
-import { mdiTwitter } from "@mdi/js";
 
 const useStyles = makeStyles(theme => ({
   root: {
