@@ -114,7 +114,7 @@ class DashBoard extends Component {
     this.setState({
       movieSearch: e.target.value
     }, () => {
-      isChecked ? this.onHandleSearchSubmit() : null
+      isChecked ? this.onHandleSearchSubmit() : undefined
     });
 
   }
@@ -127,7 +127,7 @@ class DashBoard extends Component {
     });
   }
 
-  onHandleSearchSubmit = (e) => {
+  onHandleSearchSubmit = () => {
     this.setState({ isLoading: true });
     const { movies, allMovies, movieSearch } = this.state;
     let _movies = allMovies.filter((x) => {
