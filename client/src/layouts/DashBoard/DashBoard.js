@@ -119,6 +119,7 @@ class DashBoard extends Component {
 
   }
 
+
   onHandleClearSearchSubmit = () => {
     const { movies, allMovies, movieSearch } = this.state;
     this.setState({
