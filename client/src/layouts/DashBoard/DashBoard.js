@@ -110,11 +110,14 @@ class DashBoard extends Component {
   }
 
   onHandleSearch = (e) => {
+    let self = this
     const { movies, allMovies, movieSearch, isChecked } = this.state;
     this.setState({
       movieSearch: e.target.value
     }, () => {
-      isChecked ? this.onHandleSearchSubmit() : undefined
+      if (isChecked) {
+        self.onHandleSearchSubmit()
+      }
     });
 
   }
