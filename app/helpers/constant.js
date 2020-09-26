@@ -1,6 +1,6 @@
 // enums
 
-const configServer = require("../../config");
+const configServer = require("../../configExample");
 module.exports.config = configServer;
 
 
