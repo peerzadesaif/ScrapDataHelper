@@ -1,5 +1,3 @@
-const jwt = require("jsonwebtoken");
-const { JWT_SECRET } = require("../config/keys");
 const securityClient = require("../app/securityService/securityClient");
 const constant = require("../app/helpers/constant");
 
